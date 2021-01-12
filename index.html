@@ -142,16 +142,34 @@
                     <div class="article-list-box">
                         <ul>
                             <li>
-                                <h1>자바스크립트 사용법</h1>
+                                <h1>자바스크립트 변수 선언과 초기화</h1>
                                 <div>2020-01-12 12:12:14</div>
                                 <div>
                                     <script type="text/x-template">
-                                        # 자바스크립트 사용법
+# 변수
+<h3>프로그램 실행 도중 임의의 값을 저장해 두고 읽을 수 있는 공간</h3>
+<br>
+<h4>변수의 선언과 초기화</h4>
+<br>
+          
+<h5>선언 : 컴퓨터에게 변수를 사용할 것이라고 선언(알려주는) 역할</h5>
+<h5>초기화 : 선언한 변수에 처음으로 값을 저장하는 과정</h5>
+<h5>변수에 값을 저장하는 법 : 대입연산자 (=) 를 활용</h5>
+<h5>콤마(,)를 활용해 여러 변수를 동시에 선언, 초기화 가능</h5>
+<h5>변수에 대한 더 자세한 내용은 외계어사전 참고</h5>
+          
 ```html
-<<!--REPLACE:script-->>
-var a = 10;
-</<!--REPLACE:script-->>
-<div class="a"></div>
+var variable_name;
+ variable_name = value;
+```
+          
+<h4>prompt() 명령어</h4>
+<br>
+<h5>promprt 뒤에 따라오는 괄호 안에 들어있는 메세지를 사용자에게 보여주고, 문자열을 입력받는 명령</h5>
+<h5>변수에 값을 저장하는 구문과 함께 사용해서, 사용자가 입력한 값을 변수에 저장 가능</h5>
+          
+```html
+var name=prompt("이름을 입력해 주세요");
 ```
                         </script>
                                     <div class="toast-ui-viewer"></div>
@@ -162,7 +180,7 @@ var a = 10;
                                 <div>2020-01-12 15:47:30</div>
                                 <div>
                                     <script type="text/x-template">
-# 후손 선택자 개념
+                                        # 후손 선택자 개념
 ```codepen
 https://codepen.io/Yun_SH/embed/LYZpLXZ?height=500&theme-id=dark&default-tab=html,result
 ```
