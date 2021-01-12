@@ -3,16 +3,35 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>PHP-SSG-BLOG</title>
 
     <!-- 반응형 필수 -->
     <meta name="viewport" content="width=device-width, user-scalable=no">
 
     <!-- 제이쿼리 불러오기 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- 폰트어썸 불러오기 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- 토스트 UI 시작 -->
+    <!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/default.min.css">
+
+    <!-- 토스트 UI 에디터, 자바스크립트 코어 -->
+    <script defer src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
+
+    <!-- 코드 미러 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css" />
+    <!-- 토스트 UI 에디터, CSS 코어 -->
+    <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
+
+    <!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
+    <script defer
+        src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js">
+    </script>
+    <!-- 토스트 UI 끝 -->
 
     <link rel="stylesheet" href="common.css">
     <script src="common.js" defer></script>
@@ -117,53 +136,50 @@
         </aside>
         <!-- 모바일 사이드 바 끝 -->
 
-        <main class="con">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sit voluptatum ducimus voluptate, quibusdam
-            excepturi repudiandae tempore molestias magnam. Sint veritatis aspernatur quibusdam impedit nemo laboriosam
-            aliquam natus omnis fugiat!
-            Hic sapiente maiores ipsam at in eos quia, repellat totam maxime sit. Itaque consequatur atque nobis
-            aspernatur voluptate esse neque, sed enim alias laboriosam reprehenderit illo. Accusantium vel mollitia
-            quis?
-            Error cumque quos dicta quasi impedit. Nobis ratione sed cum obcaecati perspiciatis enim saepe voluptatum
-            rem. Obcaecati, laborum illo libero labore veniam velit animi? Neque magni expedita mollitia pariatur
-            voluptates.
-            Explicabo cumque esse excepturi quaerat repellendus praesentium placeat eligendi assumenda, animi,
-            dignissimos nostrum. Expedita magni architecto quas perspiciatis enim repellendus ex assumenda unde corrupti
-            inventore vero, amet illo. Molestias, in!
-            Placeat necessitatibus veritatis illo. Sed nisi consequuntur perspiciatis quasi dolorem molestias, labore
-            impedit enim ut blanditiis quia veritatis cum eveniet obcaecati quae nulla inventore eos. Praesentium quia
-            quae pariatur eum.
-            Voluptatem alias nobis corrupti eius sint quod. Neque quaerat voluptate, optio molestias delectus
-            repudiandae fugiat hic voluptates, ab qui nam perferendis excepturi! Explicabo distinctio aut magni
-            reiciendis. Voluptate, obcaecati tempore.
-            Quas qui tempore blanditiis libero pariatur perspiciatis culpa explicabo fuga nam voluptates repudiandae
-            provident facilis beatae veritatis possimus exercitationem quis doloribus totam ipsa, iste doloremque
-            praesentium. Cumque quae sit optio!
-            Quia deserunt delectus odio culpa reprehenderit sapiente quas ipsa, excepturi dolore tempora autem saepe
-            soluta tempore, laborum a consectetur reiciendis porro, ad et laboriosam numquam quae cupiditate error!
-            Quibusdam, itaque!
-            Voluptate optio totam tempore dolores, deserunt harum cumque voluptatem facere quam! Provident itaque
-            praesentium placeat harum. Fugit maiores, natus quas eveniet deleniti ducimus, optio voluptate quae quia
-            omnis tempora velit.
-            Minus dolorum eius sit reiciendis cum ut blanditiis tempore deserunt, vitae, tenetur excepturi, ipsa eos ad!
-            Ad error adipisci eum, iure cumque perspiciatis! Minima consequuntur vero, nobis laborum corrupti tempora.
-            Molestias, perspiciatis distinctio. Nostrum porro, ea sunt, inventore autem, similique nemo a libero aliquam
-            ipsum adipisci labore! Necessitatibus, esse odit quis consequuntur nesciunt repellendus impedit asperiores
-            incidunt, quo quam odio!
-            Eveniet, sit numquam hic vel asperiores quasi aut iure explicabo voluptatibus repellendus repudiandae
-            blanditiis laborum, nobis dolorem dignissimos fugit sapiente accusantium praesentium officia ut nisi.
-            Corporis cupiditate soluta aspernatur blanditiis!
-            Deserunt earum, odio velit perspiciatis quidem, quis error repellat aliquid nesciunt architecto nisi,
-            numquam consectetur. Quasi velit vero qui esse iusto temporibus ipsam corrupti nam odio? Iusto consequuntur
-            rerum amet.
-            Alias obcaecati eos modi molestias, repellendus quae accusantium asperiores ipsum nisi placeat ut maiores
-            quasi, expedita accusamus fugiat non quis, ipsa aliquid dolorum! Hic, eaque reiciendis illo dicta expedita
-            illum.
-            Obcaecati dolorum, minus saepe veniam cupiditate molestias tenetur odio velit, magni officia soluta
-            exercitationem eum quasi nisi incidunt vero dolorem quod. Amet non voluptate accusantium iusto. Dicta eos
-            mollitia est?
-            Illum quam tempore laboriosam neque enim, quasi hic? Et laborum maiores vero, magni culpa accusantium
-            eligendi saepe eos labore tempora, quod nisi nulla
+        <main>
+            <section class="section-latest-articles con-min-width">
+                <div class="con">
+                    <div class="article-list-box">
+                        <ul>
+                            <li>
+                                <h1>자바스크립트 사용법</h1>
+                                <div>2020-01-12 12:12:14</div>
+                                <div>
+                                    <script type="text/x-template">
+                                        # 자바스크립트 사용법
+```html
+<<!--REPLACE:script-->>
+var a = 10;
+</<!--REPLACE:script-->>
+<div class="a"></div>
+```
+                        </script>
+                                    <div class="toast-ui-viewer"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <h1>HTML</h1>
+                                <div>2020-01-12 15:47:30</div>
+                                <div>
+                                    <script type="text/x-template">
+# 후손 선택자 개념
+```codepen
+https://codepen.io/Yun_SH/embed/LYZpLXZ?height=500&theme-id=dark&default-tab=html,result
+```
+
+# UX/UI 개념 이론강의
+```youtube
+6KtzhMOFPNs
+```
+                        </script>
+                                    <div class="toast-ui-viewer"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
         </main>
 
         <!-- 하단 바 시작 -->
