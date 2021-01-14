@@ -242,6 +242,10 @@ margin-right:3px;
 --mobile-top-bar__height:70px;
 }
 
+.mobile-top-bar-padding {
+padding-top:var(--mobile-top-bar__height);
+}
+
 .mobile-top-bar {
 background-color:#1F74A0;
 color:#E1DFDD;
@@ -251,10 +255,6 @@ top:0;
 left:0;
 width:100%;
 z-index:1000;
-}
-
-body {
-padding-top:var(--mobile-top-bar__height);
 }
 
 :root {
@@ -400,4 +400,31 @@ padding-bottom:20px;
 .article-list-box__reg-date::before {
 content:"작성 : ";
 }
+
+.article-list-box__writer {
+display:flex;
+align-items:center;
+margin-top:5px;
+}
+
+.article-list-box__writer > span:last-child {
+width:70px;
+height:70px;
+background-color:skyblue;
+overflow:hidden;
+border-radius:50%;
+margin-left:10px;
+}
 /* 게시물 리스트 박스 끝 */
+
+/* svgs 시작 */
+.svgs {
+width:0;
+height:0;
+overflow:hidden;
+}
+
+.svgs > * {
+display:block;
+}
+/* svgs 끝 */
