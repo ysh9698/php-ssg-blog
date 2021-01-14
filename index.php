@@ -1,5 +1,59 @@
 <?php require_once "head.php"; ?>
 
+<section class="section-latest-articles con-min-width">
+      <div class="con">
+        <div class="article-list-box">
+          <ul>
+            <li>
+              <h1 class="article-list-box__title">HTML 3일차</h1>
+              <div class="article-list-box__reg-date">2021-01-14 22:17:32</div>
+
+              <div class="article-list-box__writer">
+                <span>YSH</span>
+                <span>
+                  <svg viewBox="0 0 264 280">
+                    <use xlink:href="#avatar-1"></use>
+                  </svg>
+                </span>
+              </div>
+
+              <div class="article-list-box__body">
+                <script type="text/x-template">
+                  # 비어있는 태그
+- HTML에는 닫히는 개념이 없는 태그들이 있음.
+
+# 예시 - 닫히는 개념이 없는 비어있는 태그
+```html
+<비어있는 태그>
+  <비어있지 않은 태그></비어있지 않은 태그>
+```
+                </script>
+                <div class="toast-ui-viewer"></div>
+              </div>
+            </li>
+
+            <li>
+              <div class="article-list-box__body">
+                <script type="text/x-template">
+
+# header, footer, main
+```codepen
+https://codepen.io/Yun_SH/embed/KKgrmGZ?height=450&theme-id=dark&default-tab=html,result&editable=true
+```
+
+# article, section, aside
+```codepen
+https://codepen.io/Yun_SH/embed/bGwQWZR?height=450&theme-id=dark&default-tab=html,result&editable=true
+```
+                </script>
+                <div class="toast-ui-viewer"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
             <section class="section-title con-min-width">
                 <h1 class="con">
                   <span>
