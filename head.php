@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>디자이너 YSH</title>
+    <title><?=$siteTitle?></title>
+
     <!-- 반응형 필수 -->
     <meta name="viewport" content="width=device-width, user-scalable=no" />
+
     <!-- 제이쿼리 불러오기 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!-- 폰트어썸 불러오기 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
     <!-- 토스트 UI 시작 -->
     <!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
@@ -46,13 +51,13 @@
       <nav class="top-bar__menu-box-1 height-100p">
         <ul class="flex height-100p">
           <li>
-            <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+          <a href="index.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
               <span><i class="fas fa-home"></i></span>
               <span>HOME</span>
             </a>
           </li>
           <li>
-            <a href="about.php" class="flex flex-jc-c flex-ai-c height-100p">
+          <a href="about.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
               <span><i class="far fa-address-card"></i></span>
               <span>ABOUT</span>
             </a>
