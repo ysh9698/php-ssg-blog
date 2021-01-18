@@ -150,22 +150,63 @@
     </aside>
     <!-- 모바일 사이드 바 끝 -->
   
-    <main>
-<link rel="stylesheet" href="css/about.css">
+    <main><link rel="stylesheet" href="css/about.css">
 <script src="js/about.js" defer></script>
-
 <section class="section-title con-min-width">
-  <h1 class="con">
-    <span>
-      <i class="fas fa-fire"></i>
-    </span>
-    <span>
-      ABOUT
-    </span>
-  </h1>
+    <h1 class="con">
+        <span>
+            <i class="fas fa-newspaper"></i>
+        </span>
+        <span>
+            DETAIL
+        </span>
+    </h1>
+</section>
+<section class="section-article-detail con-min-width">
+    <div class="con">
+        <h1 class="article-list-box__title"><a href="article_detail_2.html">HTML 5일차</a></h1>
+        <div class="article-list-box__reg-date">2020-01-16 17:46:25</div>
+        
+        <div class="article-list-box__writer">
+            <span>윤승현</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
+        </div>
+        
+        <div class="article-list-box__body">
+            <script type="text/x-template">
+# a, strong, span, br
+- a : 다른 페이지, 파일, 이메일 주소 등 다른 URL로 연결할 수 있는 하이퍼링크를 설정.
+- strong : 의미의 중요성을 나타내기 위해 사용.
+- span : div 태그 처럼 본질적으로는 아무 의미도 나타내지 않는 콘텐츠 영역을 설정.
+- br : 줄바꿈을 설정.
+
+# a, strong, span, br 예시
+```codepen
+https://codepen.io/Yun_SH/embed/XWjoQpb?height=450&theme-id=dark&default-tab=html,result&editable=true
+```</script>
+            <div class="toast-ui-viewer"></div>
+        </div>
+    </div>
 </section>
 
-</main>
+<section class="section-article-reply-box con-min-width">
+    <div class="con">
+    <div id="disqus_thread"></div>
+
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'https://b.oa.gg/article_detail_5.html';
+            this.page.identifier = 'article_detail_5.html';
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://phpblog-2.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    </div>
+</section> </main>
 
 <!-- 하단바 시작 -->
 <footer class="bottom-bar con-min-width">

@@ -37,6 +37,9 @@
 </head>
 
 <body>
+
+<div class="cursor"></div>
+<div class="cursor-shadow"></div>
     
 <div class="body-content">
 
@@ -44,8 +47,8 @@
     <header class="top-bar con-min-width visible-md-up">
       <div class="con height-100p flex flex-jc-sb">
         <a href="index.ssghtml.php" class="logo">
-          <span><i class="far fa-lemon"></i></span>
-          <span>DESIGN LEMON!</span>
+        <span><i class="fab fa-connectdevelop"></i></span>
+        <span>Carpe Diem</span>
         </a>
         <nav class="top-bar__menu-box-1 height-100p">
           <ul class="flex height-100p">
@@ -73,6 +76,12 @@
                 <span>ARTICLES</span>
               </a>
             </li>
+            <li>
+              <a href="team.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
+                <span><i class="fas fa-users"></i></span>
+                <span>TEAM</span>
+             </a>
+           </li>
           </ul>
         </nav>
       </div>
@@ -92,8 +101,8 @@
       </div>
       <div>
         <a href="#" class="logo height-100p">
-          <span><i class="far fa-lemon"></i></span>
-          <span>DESIGN LEMON</span>
+        <span><i class="fab fa-connectdevelop"></i></span>
+        <span>Carpe Diem</span>
         </a>
       </div>
       <div class="flex-1-0-0"></div>
@@ -129,6 +138,12 @@
               <span>ARTICLES</span>
             </a>
           </li>
+          <li>
+              <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                <span><i class="fas fa-users"></i></span>
+                <span>TEAM</span>
+             </a>
+           </li>
         </ul>
       </nav>
   
