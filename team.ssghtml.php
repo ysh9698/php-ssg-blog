@@ -1,10 +1,9 @@
 <?php
-require_once "data.php";
+require_once "team_data.php";
 require_once "head.php";
 ?>
-
-<link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
+<link rel="stylesheet" href="css/team.css">
+<script src="js/team.js" defer></script>
 
 <section class="section-title con-min-width">
   <h1 class="con">
@@ -20,8 +19,8 @@ require_once "head.php";
 <section class="section-latest-articles con-min-width">
   <div class="con">
     <div class="article-list-box">
-      <ul>
-      <?php for ( $i = 6; $i >= 1; $i-- ) { ?>
+     <ul>
+      <?php for ( $i = 7; $i >= 1; $i-- ) { ?>
         <?php
         $articleVarName = "article" . $i;
         $article = $$articleVarName;

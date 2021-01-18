@@ -19,7 +19,7 @@ require_once "head.php";
 <section class="section-latest-articles con-min-width">
   <div class="con">
     <div class="article-list-box">
-    <ul>
+     <ul>
       <?php for ( $i = 7; $i >= 1; $i-- ) { ?>
         <?php
         $articleVarName = "article" . $i;
