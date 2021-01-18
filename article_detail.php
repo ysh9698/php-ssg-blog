@@ -33,7 +33,7 @@
 
     <script>
         var disqus_config = function () {
-            this.page.url = 'https://b.oa.gg/article_detail_<?=$articleId?>.html';
+            this.page.url = 'https://b.cultureland.site/article_detail_<?=$articleId?>.html';
             this.page.identifier = 'article_detail_<?=$articleId?>.html';
         };
         (function() { // DON'T EDIT BELOW THIS LINE

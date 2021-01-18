@@ -4,7 +4,7 @@ $siteTitle = "디자이너 YSH";
 // 게시물 6
 $article6 = [];
 $article6["title"] = "HTML 6일차";
-$article6["regDate"] = "2020-01-16 20:39:43";
+$article6["regDate"] = "2020-01-17 20:39:43";
 $article6["writerName"] = "윤승현";
 $article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article6["body"] = <<<EOT
