@@ -1,6 +1,37 @@
 <?php
 $siteTitle = "디자이너 YSH";
 
+// 게시물 7
+$article7 = [];
+$article7["id"] = 7;
+$article7["title"] = "HTML 7일차";
+$article7["regDate"] = "2020-01-18 18:18:12";
+$article7["writerName"] = "윤승현";
+$article7["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article7["body"] = <<<EOT
+
+# 메타데이터
+- title : 브라우저의 제목 표시줄이나 페이지 탭에 보여지는 문서의 제목을 설정.
+- base : HTML 문서에 포함된 모든 상대 URL들의 기준 URL을 설정. 한 문서에 하나의 base 요소만 포함 가능함.
+- link : 외부 리소스의 연결 및 현재 문서와의 관계를 명시.
+- meta : 기타 메타데이터 요소로 나타낼 수 없는 데이터를 나타내기 위해 설정.
+
+# 메타데이터 예시
+```codepen
+https://codepen.io/Yun_SH/embed/bGwzReg?height=450&theme-id=dark&default-tab=html,result&editable=true
+```
+
+# 참고영상
+```youtube
+phu8gdbVMyo
+```
+
+# 참고영상 2
+```youtube
+zO5zHxX2lNI
+```
+EOT;
+
 // 게시물 6
 $article6 = [];
 $article6["id"] = 6;
