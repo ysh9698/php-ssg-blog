@@ -3,6 +3,7 @@ $siteTitle = "디자이너 YSH";
 
 // 게시물 6
 $article6 = [];
+$article6["id"] = 6;
 $article6["title"] = "HTML 6일차";
 $article6["regDate"] = "2020-01-17 20:39:43";
 $article6["writerName"] = "윤승현";
@@ -24,6 +25,7 @@ EOT;
 
 // 게시물 5
 $article5 = [];
+$article5["id"] = 5;
 $article5["title"] = "HTML 5일차";
 $article5["regDate"] = "2020-01-16 17:46:25";
 $article5["writerName"] = "윤승현";
@@ -44,6 +46,7 @@ EOT;
 
 // 게시물 4
 $article4 = [];
+$article4["id"] = 4;
 $article4["title"] = "HTML 4일차";
 $article4["regDate"] = "2020-01-15 22:17:32";
 $article4["writerName"] = "윤승현";
@@ -73,6 +76,7 @@ EOT;
 
 // 게시물 3
 $article3 = [];
+$article3["id"] = 3;
 $article3["title"] = "HTML 3일차";
 $article3["regDate"] = "2020-01-14 22:17:32";
 $article3["writerName"] = "윤승현";
@@ -100,6 +104,7 @@ EOT;
 
 // 게시물 2
 $article2 = [];
+$article2["id"] = 2;
 $article2["title"] = "HTML 2일차";
 $article2["regDate"] = "2020-01-13 21:24:17";
 $article2["writerName"] = "윤승현";
@@ -127,6 +132,7 @@ EOT;
 
 // 게시물 1
 $article1 = [];
+$article1["id"] = 1;
 $article1["title"] = "HTML 1일차";
 $article1["regDate"] = "2020-01-12 12:12:14";
 $article1["writerName"] = "윤승현";
