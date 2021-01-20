@@ -1,6 +1,32 @@
 <?php
 $siteTitle = "디자이너 YSH";
 
+// 게시물 8
+$article8 = [];
+$article8["id"] = 8;
+$article8["title"] = "HTML 8일차";
+$article8["regDate"] = "2020-01-19 17:23:51";
+$article8["writerName"] = "윤승현";
+$article8["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article8["body"] = <<<EOT
+
+# DOCTYPE(DTD, 버전 지정)
+- DOCTYPE(DTD, Document Type Definition)은 마크업 언어에서 문서 형식을 정의함.
+- 이는 웹 브라우저에 우리가 제공할 HTML 문서를 어떤 HTML 버전의 해석 방식으로 구조화하면 되는지를 알려줌.
+- HTML은 크게 1, 2, 3, 4, X-, 5 버전이 있음.
+- 현재 표준 모드는 HTML 5 버전임.(Windows 운영체제가 95, 98, ME, 2000, XP, Vista, 7, 8, 10 버전이 있는 것과 비슷하다고 생각하면 쉬움.)
+
+# DOCTYPE 문서 예시
+```codepen
+https://codepen.io/Yun_SH/embed/PoGLRdz?height=450&theme-id=dark&default-tab=html,result&editable=true
+```
+
+# 참고영상
+```youtube
+EgT5520Ztek
+```
+EOT;
+
 // 게시물 7
 $article7 = [];
 $article7["id"] = 7;
