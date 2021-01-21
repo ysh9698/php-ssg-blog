@@ -1,6 +1,56 @@
 <?php
 $siteTitle = "디자이너 YSH";
 
+// 게시물 10
+$article10 = [];
+$article10["id"] = 10;
+$article10["title"] = "HTML 10일차";
+$article10["regDate"] = "2020-01-21 21:01:55";
+$article10["writerName"] = "윤승현";
+$article10["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article10["body"] = <<<EOT
+
+# table, tr, th, td
+- 데이터 표(table)의 행(줄/tr)과 열(칸, 셀)/th, td를 생성.
+- table ( display : table; )
+- tr ( display : table-row; )
+- th, td ( display : table-cell; )
+
+# table 예시
+```codepen
+https://codepen.io/Yun_SH/embed/PozQgbq?height=450&theme-id=dark&default-tab=html,result&editable=true
+```
+
+# 참고영상
+```youtube
+XUTFXu0f4qo
+```
+EOT;
+
+// 게시물 9
+$article9 = [];
+$article9["id"] = 9;
+$article9["title"] = "HTML 9일차";
+$article9["regDate"] = "2020-01-20 20:51:40";
+$article9["writerName"] = "윤승현";
+$article9["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article9["body"] = <<<EOT
+
+# script
+- 스크립트 코드를 문서에 포함하거나 참조(외부 스크립트)
+- https://cdnjs.com/ 에서 원하는 스크립트 가져오기 가능.
+
+# 대표적으로 제일 많이 쓰이는 스크립트
+```codepen
+https://codepen.io/Yun_SH/embed/eYdoGJY?height=450&theme-id=dark&default-tab=html,result&editable=true
+```
+
+# 참고영상
+```youtube
+Ru5zGHkOgic
+```
+EOT;
+
 // 게시물 8
 $article8 = [];
 $article8["id"] = 8;
