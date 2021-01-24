@@ -1,6 +1,29 @@
 <?php
 $siteTitle = "디자이너 YSH";
 
+// 게시물 11
+$article11 = [];
+$article11["id"] = 11;
+$article11["title"] = "HTML 11일차";
+$article11["regDate"] = "2020-01-22 21:01:55";
+$article11["writerName"] = "윤승현";
+$article11["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article11["body"] = <<<EOT
+
+# button
+- 선택 가능한 버튼을 지정함.
+
+# button 예시
+```codepen
+https://codepen.io/Yun_SH/embed/zYKVOeq?height=450&theme-id=dark&default-tab=html,result&editable=true
+```
+
+# 참고영상
+```youtube
+LnlIrDXwEr0
+```
+EOT;
+
 // 게시물 10
 $article10 = [];
 $article10["id"] = 10;
