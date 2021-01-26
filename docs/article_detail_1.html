@@ -32,8 +32,8 @@
     <script src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js" defer></script>
     <!-- 토스트 UI 끝 -->
 
-    <link rel="stylesheet" href="css/common.css">
-    <script src="js/common.js" defer></script>
+    <link rel="stylesheet" href="/css/common.css">
+    <script src="/js/common.js" defer></script>
 </head>
 
 <body>
@@ -150,8 +150,7 @@
     </aside>
     <!-- 모바일 사이드 바 끝 -->
   
-    <main><link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
+    <main>
 <section class="section-title con-min-width">
     <h1 class="con">
         <span>
@@ -162,27 +161,45 @@
         </span>
     </h1>
 </section>
+
 <section class="section-article-detail padding-0-10 con-min-width">
     <div class="con">
-        <h1 class="article-list-box__title"><a href="article_detail_2.html">HTML 5일차</a></h1>
-        <div class="article-list-box__reg-date">2020-01-16 17:46:25</div>
+        <h1 class="article-list-box__title">HTML 1일차</h1>
+        <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
         
         <div class="article-list-box__writer">
             <span>윤승현</span>
             <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
         </div>
-        
-        <div class="article-list-box__body">
-            <script type="text/x-template">
-# a, strong, span, br
-- a : 다른 페이지, 파일, 이메일 주소 등 다른 URL로 연결할 수 있는 하이퍼링크를 설정.
-- strong : 의미의 중요성을 나타내기 위해 사용.
-- span : div 태그 처럼 본질적으로는 아무 의미도 나타내지 않는 콘텐츠 영역을 설정.
-- br : 줄바꿈을 설정.
 
-# a, strong, span, br 예시
+        <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_HTML.html">#HTML</a>        </div>
+
+        <div class="article-list-box__body">
+            <script type="text/x-template"># HTML의 개념
+- HTML(Hyper Text Markup Language)
+- 페이지의 제목, 문단, 표, 이미지, 동영상 등을 정의하고 그 구조와 의미를 부여하는 정적 언어로 웹의 구조를 담당함.
+- 건물의 뼈대, 무대에서의 배우 개념으로 볼 수 있음.
+  
+# 예시 - HTML 기본 문법
+```html
+<div></div>
+<div>구성요소</div>
+```
+
+# 태그의 기본 형태
 ```codepen
-https://codepen.io/Yun_SH/embed/XWjoQpb?height=450&theme-id=dark&default-tab=html,result&editable=true
+https://codepen.io/Yun_SH/embed/KKgGgVd?height=450&theme-id=dark&default-tab=html,result&editable=true
+```
+  
+# 속성과 값
+```codepen
+https://codepen.io/Yun_SH/embed/NWROrVV?height=450&theme-id=dark&default-tab=html,result&editable=true
+```
+
+# 참고영상
+```youtube
+V5lz1CCyhtI
 ```</script>
             <div class="toast-ui-viewer"></div>
         </div>
@@ -192,11 +209,11 @@ https://codepen.io/Yun_SH/embed/XWjoQpb?height=450&theme-id=dark&default-tab=htm
 <section class="section-article-reply-box padding-0-10 con-min-width">
     <div class="con">
     <div id="disqus_thread"></div>
-
+    
     <script>
         var disqus_config = function () {
-            this.page.url = 'https://b.cultureland.site/article_detail_5.html';
-            this.page.identifier = 'article_detail_5.html';
+            this.page.url = 'https://b.oa.gg/article_detail_1.html';
+            this.page.identifier = 'article_detail_1.html';
         };
         (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
@@ -206,7 +223,9 @@ https://codepen.io/Yun_SH/embed/XWjoQpb?height=450&theme-id=dark&default-tab=htm
         })();
     </script>
     </div>
-</section> </main>
+</section>
+
+</main>
 
 <!-- 하단바 시작 -->
 <footer class="bottom-bar con-min-width">

@@ -32,8 +32,8 @@
     <script src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js" defer></script>
     <!-- 토스트 UI 끝 -->
 
-    <link rel="stylesheet" href="css/common.css">
-    <script src="js/common.js" defer></script>
+    <link rel="stylesheet" href="/css/common.css">
+    <script src="/js/common.js" defer></script>
 </head>
 
 <body>
@@ -150,8 +150,7 @@
     </aside>
     <!-- 모바일 사이드 바 끝 -->
   
-    <main><link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
+    <main>
 <section class="section-title con-min-width">
     <h1 class="con">
         <span>
@@ -162,36 +161,38 @@
         </span>
     </h1>
 </section>
+
 <section class="section-article-detail padding-0-10 con-min-width">
     <div class="con">
-        <h1 class="article-list-box__title"><a href="article_detail_2.html">HTML 4일차</a></h1>
-        <div class="article-list-box__reg-date">2020-01-15 22:17:32</div>
+        <h1 class="article-list-box__title">HTML 2일차</h1>
+        <div class="article-list-box__reg-date">2020-01-13 21:24:17</div>
         
         <div class="article-list-box__writer">
             <span>윤승현</span>
             <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
         </div>
-        
+
+        <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_HTML.html">#HTML</a>        </div>
+
         <div class="article-list-box__body">
-            <script type="text/x-template"># nav, address, div
-- nav : 다른 페이지 링크를 제공하는 영역을 설정.
-- address : body, article, footer 등에서 연락처 정보를 제공하기 위해 사용.
-- div : 가장 자주 쓰이는 태그이며 콘텐츠 영역을 설정.
+            <script type="text/x-template"># 부모와 자식 요소
+- 태그 A가 태그 B의 콘텐츠로 사용될 시에, 태그 B는 태그 A의 부모 요소, 태그 A는 태그 B의 자식 요소라고 함.
 
-# ol, ul, li 태그
+# 예시 - 부모와 자식 요소 태그
 ```html
-<ol></ol> : 정렬된 목록을 설정.
-<li></li> : 항목을 설정.
+<부모태그>
+  <자식태그></자식태그>
+</부모태그>
 ```
-
-# ol, ul, li 태그 예시
+# 부모와 자식 요소 태그 2
 ```codepen
-https://codepen.io/Yun_SH/embed/rNMoBgZ?height=450&theme-id=dark&default-tab=html,result&editable=true
+https://codepen.io/Yun_SH/embed/bGwmZjm?height=450&theme-id=dark&default-tab=html,result&editable=true
 ```
 
 # 참고영상
 ```youtube
-3dKSNMPH7IY
+jdc-7VMNf9g
 ```</script>
             <div class="toast-ui-viewer"></div>
         </div>
@@ -201,11 +202,11 @@ https://codepen.io/Yun_SH/embed/rNMoBgZ?height=450&theme-id=dark&default-tab=htm
 <section class="section-article-reply-box padding-0-10 con-min-width">
     <div class="con">
     <div id="disqus_thread"></div>
-
+    
     <script>
         var disqus_config = function () {
-            this.page.url = 'https://b.cultureland.site/article_detail_4.html';
-            this.page.identifier = 'article_detail_4.html';
+            this.page.url = 'https://b.oa.gg/article_detail_2.html';
+            this.page.identifier = 'article_detail_2.html';
         };
         (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
@@ -215,7 +216,9 @@ https://codepen.io/Yun_SH/embed/rNMoBgZ?height=450&theme-id=dark&default-tab=htm
         })();
     </script>
     </div>
-</section> </main>
+</section>
+
+</main>
 
 <!-- 하단바 시작 -->
 <footer class="bottom-bar con-min-width">

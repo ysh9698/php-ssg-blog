@@ -32,8 +32,8 @@
     <script src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js" defer></script>
     <!-- 토스트 UI 끝 -->
 
-    <link rel="stylesheet" href="css/common.css">
-    <script src="js/common.js" defer></script>
+    <link rel="stylesheet" href="/css/common.css">
+    <script src="/js/common.js" defer></script>
 </head>
 
 <body>
@@ -150,8 +150,7 @@
     </aside>
     <!-- 모바일 사이드 바 끝 -->
   
-    <main><link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
+    <main>
 <section class="section-title con-min-width">
     <h1 class="con">
         <span>
@@ -162,28 +161,41 @@
         </span>
     </h1>
 </section>
+
 <section class="section-article-detail padding-0-10 con-min-width">
     <div class="con">
-        <h1 class="article-list-box__title"><a href="article_detail_2.html">HTML 6일차</a></h1>
-        <div class="article-list-box__reg-date">2020-01-17 20:39:43</div>
+        <h1 class="article-list-box__title">HTML 7일차</h1>
+        <div class="article-list-box__reg-date">2020-01-18 18:18:12</div>
         
         <div class="article-list-box__writer">
             <span>윤승현</span>
             <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
         </div>
-        
+
+        <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_HTML.html">#HTML</a>        </div>
+
         <div class="article-list-box__body">
             <script type="text/x-template">
-# 미디어 태그
-- img : 이미지를 설정.
-- audio : 소리 콘텐츠를 설정.
-- video : 동영상 콘텐츠를 설정.
-- figure : 이미지나 삽화, 도표 등의 영역을 설정.
-- figcaption : figure 에 포함되어 이미지나 삽화 등의 설명을 표시.(Figure Caption)
+# 메타데이터
+- title : 브라우저의 제목 표시줄이나 페이지 탭에 보여지는 문서의 제목을 설정.
+- base : HTML 문서에 포함된 모든 상대 URL들의 기준 URL을 설정. 한 문서에 하나의 base 요소만 포함 가능함.
+- link : 외부 리소스의 연결 및 현재 문서와의 관계를 명시.
+- meta : 기타 메타데이터 요소로 나타낼 수 없는 데이터를 나타내기 위해 설정.
+
+# 메타데이터 예시
+```codepen
+https://codepen.io/Yun_SH/embed/bGwzReg?height=450&theme-id=dark&default-tab=html,result&editable=true
+```
 
 # 참고영상
 ```youtube
-V_ogge8xfDs
+phu8gdbVMyo
+```
+
+# 참고영상 2
+```youtube
+zO5zHxX2lNI
 ```</script>
             <div class="toast-ui-viewer"></div>
         </div>
@@ -193,11 +205,11 @@ V_ogge8xfDs
 <section class="section-article-reply-box padding-0-10 con-min-width">
     <div class="con">
     <div id="disqus_thread"></div>
-
+    
     <script>
         var disqus_config = function () {
-            this.page.url = 'https://b.cultureland.site/article_detail_6.html';
-            this.page.identifier = 'article_detail_6.html';
+            this.page.url = 'https://b.oa.gg/article_detail_7.html';
+            this.page.identifier = 'article_detail_7.html';
         };
         (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
@@ -207,7 +219,9 @@ V_ogge8xfDs
         })();
     </script>
     </div>
-</section> </main>
+</section>
+
+</main>
 
 <!-- 하단바 시작 -->
 <footer class="bottom-bar con-min-width">

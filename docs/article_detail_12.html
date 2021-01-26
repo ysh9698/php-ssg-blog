@@ -32,8 +32,8 @@
     <script src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js" defer></script>
     <!-- 토스트 UI 끝 -->
 
-    <link rel="stylesheet" href="css/common.css">
-    <script src="js/common.js" defer></script>
+    <link rel="stylesheet" href="/css/common.css">
+    <script src="/js/common.js" defer></script>
 </head>
 
 <body>
@@ -150,8 +150,7 @@
     </aside>
     <!-- 모바일 사이드 바 끝 -->
   
-    <main><link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
+    <main>
 <section class="section-title con-min-width">
     <h1 class="con">
         <span>
@@ -162,32 +161,35 @@
         </span>
     </h1>
 </section>
+
 <section class="section-article-detail padding-0-10 con-min-width">
     <div class="con">
-        <h1 class="article-list-box__title"><a href="article_detail_2.html">HTML 10일차</a></h1>
-        <div class="article-list-box__reg-date">2020-01-21 21:01:55</div>
+        <h1 class="article-list-box__title">HTML 12일차</h1>
+        <div class="article-list-box__reg-date">2020-01-25 20:05:35</div>
         
         <div class="article-list-box__writer">
             <span>윤승현</span>
             <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
         </div>
-        
+
+        <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_HTML.html">#HTML</a>        </div>
+
         <div class="article-list-box__body">
             <script type="text/x-template">
-# table, tr, th, td
-- 데이터 표(table)의 행(줄/tr)과 열(칸, 셀)/th, td를 생성.
-- table ( display : table; )
-- tr ( display : table-row; )
-- th, td ( display : table-cell; )
+# dt, dd, dl
+- dt : 말하고자 하는 용어를 뜻함.
+- dd : 말하고자 하는 용어의 설명이나 정의를 뜻함.
+- dl : dt, dd 둘을 감싸는 영역을 뜻함.
 
-# table 예시
+# dt, dd, dl 예시
 ```codepen
-https://codepen.io/Yun_SH/embed/PozQgbq?height=450&theme-id=dark&default-tab=html,result&editable=true
+https://codepen.io/Yun_SH/embed/mdrNJrr?height=450&theme-id=dark&default-tab=html,result&editable=true
 ```
 
 # 참고영상
 ```youtube
-XUTFXu0f4qo
+k1FfISZtWEg
 ```</script>
             <div class="toast-ui-viewer"></div>
         </div>
@@ -197,11 +199,11 @@ XUTFXu0f4qo
 <section class="section-article-reply-box padding-0-10 con-min-width">
     <div class="con">
     <div id="disqus_thread"></div>
-
+    
     <script>
         var disqus_config = function () {
-            this.page.url = 'https://b.cultureland.site/article_detail_10.html';
-            this.page.identifier = 'article_detail_10.html';
+            this.page.url = 'https://b.oa.gg/article_detail_12.html';
+            this.page.identifier = 'article_detail_12.html';
         };
         (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
@@ -211,7 +213,9 @@ XUTFXu0f4qo
         })();
     </script>
     </div>
-</section> </main>
+</section>
+
+</main>
 
 <!-- 하단바 시작 -->
 <footer class="bottom-bar con-min-width">

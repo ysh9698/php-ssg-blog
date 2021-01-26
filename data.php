@@ -1,5 +1,58 @@
 <?php
+require_once "util.php";
+require_once "app.php";
 $siteTitle = "디자이너 YSH";
+
+// 게시물 13
+$article13 = [];
+$article13["id"] = 13;
+$article13["title"] = "HTML 13일차";
+$article13["regDate"] = "2020-01-26 17:13:07";
+$article13["writerName"] = "윤승현";
+$article13["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article13["tags"] = ["HTML"];
+$article13["body"] = <<<'EOT'
+
+# pre, blockquote
+- pre : 서식이 미리 지정된 텍스트를 설정.
+- blockquote : 일반적인 인용문을 설정.
+
+# pre, blockquote 예시
+```codepen
+https://codepen.io/Yun_SH/embed/VwKoLWa?height=450&theme-id=dark&default-tab=html,result&editable=true
+```
+
+# 참고영상
+```youtube
+nnsAPj1N3X0
+```
+EOT;
+
+// 게시물 12
+$article12 = [];
+$article12["id"] = 12;
+$article12["title"] = "HTML 12일차";
+$article12["regDate"] = "2020-01-25 20:05:35";
+$article12["writerName"] = "윤승현";
+$article12["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article12["tags"] = ["HTML"];
+$article12["body"] = <<<'EOT'
+
+# dt, dd, dl
+- dt : 말하고자 하는 용어를 뜻함.
+- dd : 말하고자 하는 용어의 설명이나 정의를 뜻함.
+- dl : dt, dd 둘을 감싸는 영역을 뜻함.
+
+# dt, dd, dl 예시
+```codepen
+https://codepen.io/Yun_SH/embed/mdrNJrr?height=450&theme-id=dark&default-tab=html,result&editable=true
+```
+
+# 참고영상
+```youtube
+k1FfISZtWEg
+```
+EOT;
 
 // 게시물 11
 $article11 = [];
@@ -8,7 +61,8 @@ $article11["title"] = "HTML 11일차";
 $article11["regDate"] = "2020-01-22 21:01:55";
 $article11["writerName"] = "윤승현";
 $article11["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article11["body"] = <<<EOT
+$article11["tags"] = ["HTML"];
+$article11["body"] = <<<'EOT'
 
 # button
 - 선택 가능한 버튼을 지정함.
@@ -31,7 +85,8 @@ $article10["title"] = "HTML 10일차";
 $article10["regDate"] = "2020-01-21 21:01:55";
 $article10["writerName"] = "윤승현";
 $article10["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article10["body"] = <<<EOT
+$article10["tags"] = ["HTML"];
+$article10["body"] = <<<'EOT'
 
 # table, tr, th, td
 - 데이터 표(table)의 행(줄/tr)과 열(칸, 셀)/th, td를 생성.
@@ -57,7 +112,8 @@ $article9["title"] = "HTML 9일차";
 $article9["regDate"] = "2020-01-20 20:51:40";
 $article9["writerName"] = "윤승현";
 $article9["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article9["body"] = <<<EOT
+$article9["tags"] = ["HTML"];
+$article9["body"] = <<<'EOT'
 
 # script
 - 스크립트 코드를 문서에 포함하거나 참조(외부 스크립트)
@@ -81,7 +137,8 @@ $article8["title"] = "HTML 8일차";
 $article8["regDate"] = "2020-01-19 17:23:51";
 $article8["writerName"] = "윤승현";
 $article8["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article8["body"] = <<<EOT
+$article8["tags"] = ["HTML"];
+$article8["body"] = <<<'EOT'
 
 # DOCTYPE(DTD, 버전 지정)
 - DOCTYPE(DTD, Document Type Definition)은 마크업 언어에서 문서 형식을 정의함.
@@ -107,7 +164,8 @@ $article7["title"] = "HTML 7일차";
 $article7["regDate"] = "2020-01-18 18:18:12";
 $article7["writerName"] = "윤승현";
 $article7["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article7["body"] = <<<EOT
+$article7["tags"] = ["HTML"];
+$article7["body"] = <<<'EOT'
 
 # 메타데이터
 - title : 브라우저의 제목 표시줄이나 페이지 탭에 보여지는 문서의 제목을 설정.
@@ -138,7 +196,8 @@ $article6["title"] = "HTML 6일차";
 $article6["regDate"] = "2020-01-17 20:39:43";
 $article6["writerName"] = "윤승현";
 $article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article6["body"] = <<<EOT
+$article6["tags"] = ["HTML"];
+$article6["body"] = <<<'EOT'
 
 # 미디어 태그
 - img : 이미지를 설정.
@@ -160,7 +219,8 @@ $article5["title"] = "HTML 5일차";
 $article5["regDate"] = "2020-01-16 17:46:25";
 $article5["writerName"] = "윤승현";
 $article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article5["body"] = <<<EOT
+$article5["tags"] = ["HTML"];
+$article5["body"] = <<<'EOT'
 
 # a, strong, span, br
 - a : 다른 페이지, 파일, 이메일 주소 등 다른 URL로 연결할 수 있는 하이퍼링크를 설정.
@@ -181,7 +241,8 @@ $article4["title"] = "HTML 4일차";
 $article4["regDate"] = "2020-01-15 22:17:32";
 $article4["writerName"] = "윤승현";
 $article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article4["body"] = <<<EOT
+$article4["tags"] = ["HTML"];
+$article4["body"] = <<<'EOT'
 # nav, address, div
 - nav : 다른 페이지 링크를 제공하는 영역을 설정.
 - address : body, article, footer 등에서 연락처 정보를 제공하기 위해 사용.
@@ -211,7 +272,8 @@ $article3["title"] = "HTML 3일차";
 $article3["regDate"] = "2020-01-14 22:17:32";
 $article3["writerName"] = "윤승현";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article3["body"] = <<<EOT
+$article3["tags"] = ["HTML"];
+$article3["body"] = <<<'EOT'
 # 비어있는 태그
 - HTML에는 닫히는 개념이 없는 태그들이 있음.
 
@@ -239,7 +301,8 @@ $article2["title"] = "HTML 2일차";
 $article2["regDate"] = "2020-01-13 21:24:17";
 $article2["writerName"] = "윤승현";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article2["body"] = <<<EOT
+$article2["tags"] = ["HTML"];
+$article2["body"] = <<<'EOT'
 # 부모와 자식 요소
 - 태그 A가 태그 B의 콘텐츠로 사용될 시에, 태그 B는 태그 A의 부모 요소, 태그 A는 태그 B의 자식 요소라고 함.
 
@@ -267,7 +330,8 @@ $article1["title"] = "HTML 1일차";
 $article1["regDate"] = "2020-01-12 12:12:14";
 $article1["writerName"] = "윤승현";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article1["body"] = <<<EOT
+$article1["tags"] = ["HTML"];
+$article1["body"] = <<<'EOT'
 # HTML의 개념
 - HTML(Hyper Text Markup Language)
 - 페이지의 제목, 문단, 표, 이미지, 동영상 등을 정의하고 그 구조와 의미를 부여하는 정적 언어로 웹의 구조를 담당함.
@@ -295,7 +359,27 @@ V5lz1CCyhtI
 ```
 EOT;
 
-if ( isset($articleId) ) {
-    $articleVarName = "article" . $articleId;
-    $selectedArticle = $$articleVarName;
+// 데이터 정리
+$maxArticleId = getMaxArticleId();
+$_allArticles = [];
+$_tags = [];
+for ( $i = $maxArticleId; $i > 0; $i-- ) {
+    $varName = 'article' . $i;
+    if ( isset($$varName) ) {
+        $_allArticles[${$varName}['id']] = &$$varName;
+        foreach ( $_allArticles[${$varName}['id']]['tags'] as $tag ) {
+            $_tags[] = $tag;
+        }
+    }
+}
+$_tags = array_unique($_tags);
+sort($_tags);
+$_allArticlesByTag = [];
+foreach ( $_tags as $tag ) {
+    $_allArticlesByTag[$tag] = [];
+    foreach ( $_allArticles as $article ) {
+        if ( in_array($tag, $article['tags']) ) {
+            $_allArticlesByTag[$tag][$article['id']] = $article;
+        }
+    }
 }
