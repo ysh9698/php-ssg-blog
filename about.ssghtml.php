@@ -1,8 +1,8 @@
 <?php
 require_once "data.php";
 
-$pageTitle = "{$siteTitle} - YSH 소개";
-$pageDescription = "YSH에 대한 소개페이지 입니다.";
+$pageTitle = "{$siteTitle} - 주인장 소개";
+$pageDescription = "주인장에 대한 소개페이지 입니다.";
 
 require_once "head.php";
 ?>
