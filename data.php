@@ -1,7 +1,24 @@
 <?php
 require_once "util.php";
 require_once "app.php";
+
 $siteTitle = "디자이너 YSH";
+$siteDescription = "디자이너 YSH의 기술 블로그 입니다.";
+$siteKeywordsStr = "CSS, HTML, JS";
+$siteName = "Carpe Diem";
+$siteThumbUrl = "https://github.com/ysh9698/my-img/blob/master/PHP%20blog%20Thumbnail.jpg?raw=true";
+
+// 태그정보 시작
+$tagInfos = [
+    "js" => [
+        //"pageThumbUrl" => "자바스크립트 관련 글 전용 이미지"
+        //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
+    ],
+    "html" => [
+        //"pageThumbUrl" => "html 관련 글 전용 이미지"
+    ]
+];
+// 태그정보 끝
 
 // 게시물 13
 $article13 = [];
