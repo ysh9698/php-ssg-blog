@@ -2,7 +2,6 @@
 if ( defined('STDIN') ) {
     $_GET['id'] = $argv[1];
 }
-
 require_once "data.php";
 
 $articleId = $_GET['id'];
@@ -11,6 +10,7 @@ $pageTitle = $selectedArticle['pageTitle'];
 $pageThumbUrl = $selectedArticle['pageThumbUrl'];
 $pageDescription = $selectedArticle['pageDescription'];
 $pageKeywordsStr = $selectedArticle['pageKeywordsStr'];
+
 
 require_once "head.php";
 ?>
