@@ -14,7 +14,9 @@ $tagInfos = [
         //"pageThumbUrl" => "자바스크립트 관련 글 전용 이미지"
         //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
     ],
-    "html" => [
+    "HTML" => [
+        "pageThumbUrl" => "https://github.com/ysh9698/my-img/blob/master/HTML%20Thumbnail%20.jpg?raw=true"
+        "pageDescription" => "2021년 특별기획, HTML 관련 강좌 입니다."
         //"pageThumbUrl" => "html 관련 글 전용 이미지"
     ]
 ];
