@@ -176,12 +176,6 @@ if ( !isset($pageThumbUrl) ) {
               <span>ARTICLES</span>
             </a>
           </li>
-          <li>
-              <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
-                <span><i class="fas fa-users"></i></span>
-                <span>TEAM</span>
-             </a>
-           </li>
         </ul>
       </nav>
   
