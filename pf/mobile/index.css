@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nanumsquare {
+    font-family: "NanumSquare", sans-serif !important;
+  }
+  
+  /* 노말라이즈 */
+  
+  body,
+  ul,
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  img {
+    border: 0;
+    vertical-align: middle;
+  }
+  
+  /* 라이브러리 */
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  .con {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* 커스텀 */
+  
+  ::-webkit-scrollbar-track
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar
+  {
+    width: 10px;
+    background-color: #F5F5F5;
+  }
+  
+  ::-webkit-scrollbar-thumb
+  {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+      left bottom,
+      left top,
+      color-stop(0.44, rgb(122,153,217)),
+      color-stop(0.72, rgb(73,125,189)),
+      color-stop(0.86, rgb(28,58,148)));
+  }
+  
+  .wrap {
+    width: 1920px;
+    height: auto;
+    margin: 0;
+    position: relative;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  
+  .top {
+    position: relative;
+  }
+  
+  .text-1 {
+    position: absolute;
+    font-size: 33px;
+    top: 570px;
+    left: 237px;
+    color: white;
+    width: 700px;
+  }
+  
+  .main_page-2 {
+    position: absolute;
+    left: 782px;
+    top: 10306px;
+  }
+  
+  #one {
+    height: 1129px;
+  }
+  
+  .detail-2 {
+    position: absolute;
+    left: 551px;
+    top: 11386px;
+  }
+  
+  .detail-3 {
+    position: absolute;
+    left: 1060px;
+    top: 11386px;
+  }
+  
+  #two {
+    height: 1122px;
+  }
+  
+  #three {
+    height: 1222px;
+  }
+  
+  .bookmark-2 {
+    position: absolute;
+    left: 1050px;
+    top: 13720px;
+    transform: rotate(-19deg);
+  }
+  
+  .footer {
+    height: 3640px;
+  }
+  
