@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        // 주소 뒤에 / 를 붙여주는 코드
+        // 오직 index.html 에만 넣어주세요.
+        if ( location.pathname.substr(-10, 10) != 'index.html' && location.pathname.substr(-1, 1) != '/' ) { location.replace(location.href + '/'); }
+      </script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+
+    <script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/popup.js" async=""></script>
+    <script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/tat_popup.js" async="">
+    </script>
+
+    <!-- 제이쿼리 불러오기 -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- 폰트 링크 -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- 폰트 어썸 불러오기 -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- 스와이퍼 불러오기 -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- gsap 불러오기 -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="gnb_top">
+            <div class="top_wrap">
+                <div class="top_util">
+                    <ul>
+                        <li><a href="#">로그인</a></li>
+                        <li class="more_info"><a href="#">이용권</a></li>
+                        <li><a href="#">편성표</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">인재채용</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="gnb">
+            <div class="inner_wrap">
+                <h1>
+                    <a href="#"><img
+                            src="data:image/png;base64,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"
+                            alt=""></a>
+                </h1>
+                <div class="gnb_menu">
+                    <h2><a href="#">홈</a></h2>
+                    <h2><a href="#">카테고리</a></h2>
+                    <h2><a href="#">라이브</a></h2>
+                    <h2><a href="#">마이페이지</a></h2>
+                    <h2><a href="#">클립</a></h2>
+                    <h2><a href="#">스타일</a></h2>
+                    <h2><a href="#">브랜드</a></h2>
+                </div>
+                <div class="gnb_util">
+                    <div class="gnb_search">
+                        <a href="#"><i class="fas fa-search"></i><span>검색하기</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_slide">
+        <div class="slide_text">
+            펜트하우스2
+        </div>
+        <div class="slide_text-2">
+            아찔하게 높고 아득하게 먼 당신들만의 천국
+        </div>
+        <div class="slide_bar">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <img src="https://cdn.jsdelivr.net/gh/ysh9698/my-img/pc_remaster/The_Penthouse.jpg" alt="">
+    </div>
+    <div class="category-1 con con-min-width">
+        <div class="tab">
+            <span>지금 가장 핫한 프로그램</span>
+        </div>
+        <div class="category-1-arrow">
+            <div class="left_arrow">
+                <img src="https://cdn.jsdelivr.net/gh/ysh9698/my-img/pc_remaster/left_arrow.png?raw=true" alt="">
+            </div>
+            <div class="right_arrow">
+                <img src="https://cdn.jsdelivr.net/gh/ysh9698/my-img/pc_remaster/right_arrow.png?raw=true" alt="">
+            </div>
+        </div>
+        <div class="category-1-1">
+            <img src="https://img.wavve.com/202009/20200910/11427200fa061d7a088f02e297b71bd9_w720_h1038_q75.jpg" alt="">
+            <img src="https://img.pooq.co.kr/201806/20180611/c44a3f05c5ff61b09c066f35082030b9_w720_h1038_q75.jpg"
+                alt="">
+            <img src="https://img.pooq.co.kr/201809/20180917/9e9af53fb37a523d1b7ca17ee4390054_w720_h1038_q75.jpg"
+                alt="">
+            <img src="https://img.pooq.co.kr/201903/20190329/0ac0d346e6c18a4f2aadccf411d7926f_w720_h1038_q75.jpg"
+                alt="">
+            <img src="https://img.wavve.com/202102/20210224/9bb91bda00a641c628276fd6f97b4235_w720_h1038_q75.jpg" alt="">
+        </div>
+        <div class="category-1-nav">
+            <div class="nav-1"></div>
+            <div class="nav-2"></div>
+        </div>
+    </div>
+    <div class="category-2 con con-min-width">
+        <img src="https://cdn.jsdelivr.net/gh/ysh9698/my-img/pc_remaster/This_week.png?raw=true" alt="">
+    </div>
+    <div class="category-3 con con-min-width">
+        <img src="https://cdn.jsdelivr.net/gh/ysh9698/my-img/pc_remaster/the_first.png?raw=true" alt="">
+    </div>
+    <div class="category-4 con con-min-width">
+        <img src="https://cdn.jsdelivr.net/gh/ysh9698/my-img/pc_remaster/revenge.png?raw=true" alt="">
+    </div>
+    <div class="category-5 con con-min-width">
+        <img src="https://cdn.jsdelivr.net/gh/ysh9698/my-img/pc_remaster/psyco.png?raw=true" alt="">
+    </div>
+    <div class="footer">
+        <img src="https://cdn.jsdelivr.net/gh/ysh9698/my-img/pc_remaster/footer.png?raw=true" alt="">
+    </div>
+</body>
+
+</html>
