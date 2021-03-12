@@ -7,11 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>모바일 작업물 2</title>
 
-    <script>
-        // 주소 뒤에 / 를 붙여주는 코드
-        // 오직 index.html 에만 넣어주세요.
-        if ( location.pathname.substr(-10, 10) != 'index.html' && location.pathname.substr(-1, 1) != '/' ) { location.replace(location.href + '/'); }
-      </script>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
 
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
 
@@ -44,8 +41,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
+    <script>
+        // 주소 뒤에 / 를 붙여주는 코드
+        // 오직 index.html 에만 넣어주세요.
+        if ( location.pathname.substr(-10, 10) != 'index.html' && location.pathname.substr(-1, 1) != '/' ) { location.replace(location.href + '/'); }
+      </script>
 </head>
 
 <body>
